@@ -1,9 +1,10 @@
-from data_provider.data_loader import Dataset_Custom, Dataset_Pred, Dataset_TIDE_minute
+from data_provider.data_loader import Dataset_Custom, Dataset_Pred, Dataset_TIDE_minute, Dataset_TIDE_15minute
 from torch.utils.data import DataLoader
 
 data_dict = {
     'custom': Dataset_Custom,
-    'DT_0001' : Dataset_TIDE_minute
+    'TIDE_1MIN' : Dataset_TIDE_minute,
+    'TIDE_15MIN' : Dataset_TIDE_15minute
 }
 
 
