@@ -73,6 +73,7 @@ python -u run.py \
   --des 'Exp' \
   --d_model 512 \
   --itr 2 \
+  --version Wavelets
 
 done
 

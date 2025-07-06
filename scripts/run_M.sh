@@ -13,22 +13,22 @@ python -u run.py \
   --is_training 1 \
   --root_path ./dataset/ETT-small/ \
   --data_path ETTm1.csv \
-  --task_id ETTm1 \
+  --task_id  DT_0020\
   --model $model \
-  --data ETTm1 \
-  --features M \
+  --data 15MIN\
+  --features MS \
   --seq_len 96 \
   --label_len 48 \
   --pred_len $preLen \
   --e_layers 2 \
   --d_layers 1 \
   --factor 3 \
-  --enc_in 7 \
-  --dec_in 7 \
-  --c_out 7 \
+  --enc_in 5 \
+  --dec_in 5 \
+  --c_out 1 \
   --des 'Exp' \
   --d_model 512 \
-  --itr 3 \
+  --itr 1 \
 
 # ETTh1
 python -u run.py \
